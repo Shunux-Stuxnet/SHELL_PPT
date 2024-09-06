@@ -1,0 +1,115 @@
+TDD (Test Driven Development)
+
+Main testing: Smoke + Regression (basically functional testing)
+
+fitnesse.org/download
+
+
+import fi
+in this project we need to add fitnesse jar file 
+jdk11/jdk11+ is required for this project
+
+run fitness on 9099 port (java -jar fitnessstandalone.jar -p 9099)
+
+
+Deployment: Moving code from one environment to another environment
+
+
+Azure DevOps
+GitHub actions
+Maven
+Docker file 
+
+
+
+
+GitHub Actions:
+
+GitHub action 
+Components of GitHub actions
+-Workflow
+-Events
+-Jobs
+-Actions
+-Runners
+ 	
+
+
+
+Download JDK11
+Set env variable
+
+Download latest fitnesse-standalone.jar
+Create Eclipse Project
+Add Fitnesse to the project
+Create package and create class 
+Extend column fixture in the class
+java -jar.....
+launch fitnesse
+click fitnesse
+click edit
+remove everything write package name
+click save
+click on the question mark
+then again save
+now your package is created 
+click on the package 
+now add the test page 
+name the page same as your class
+import path of the project 
+import class
+import package name
+
+
+
+
+
+Types of Databases
+
+Relational
+No-SQl
+Graph Database
+Database warehouse (OLTP, OLMP, OLAP 
+OLTP database
+
+
+SQL Operations
+
+DDL - (CREATE, ALTER, RENAME, DROP, TRUNCATE)
+DML - (INSERT, DELETE, UPDATE)
+DCL - (GRANT, RECEIVE
+DQL - (SELECT, INSERT, DELETE, GROUP BY, ORDER BY, HAVING, WHERE, SORT, JOIN, AND, OR, AS, IS)
+TCL - (COMMIT, ROLLBACK
+
+PlmOkn@12345
+
+
+
+Devops
+Continuous Development is helpful in frequent changes and to be pushed in multiple applications 
+Continuous integration: 
+GitHub Actions YAML works on Key:Value pair
+agile and devops faster delivery, faster adoption, faster 
+Virtual machine: IaaS
+office 365: SaaS
+RDBMS(database schema), NRDBMS(large amount), flat file(files)
+SQl Operations D
+functions in SQL
+
+IaaS:
+Azure Storage: blob(unstructured data), file, Queue(facilitates communication), and table(no Sql databse)
+Azure load balancing
+Resource manager
+Networking
+VCS
+
+Platform as a service: Scalable,Secure, Cost effective, Flexible, Reduces development time, and agility
+Azure logical apps
+
+
+SaaS: Usage based model
+PowerBI
+
+
+IaaC; ansible, terraform, AWS cloud formation
+
